@@ -10,30 +10,29 @@ and open the template in the editor.
 body{
     margin: 0px;
     padding: 0px;
+    background: aquamarine;
 }
-
 .page_class{
     display: table-column;
-    position: relative;
-    height:100%;
+    position: absolute;
+    min-height:100%;
 }
 #basic_profile{
-    position:absolute;
-    width:25%;
+    position:fixed;
+    width:300px;
+    top:0px;
     background: #cc00cc;
+    min-height:100%;
 }
 #menu{
     position: fixed;
-    width:10%;
-    min-width:5%;
-    left:25%;
+    width:100px;
+    left:300px;
     background: #999999;
     height:100%;
 }
 #content{
-    position:absolute;
-    width:65%;
-    left:35%;
+    left:400px;
     background: aquamarine;
 }
 #menu_items_list{

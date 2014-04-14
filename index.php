@@ -5,6 +5,15 @@
 Sridhar Vemula
 </title>
 <link href="./css/main_page.css" type="text/css" rel="stylesheet" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>   
+    $(document).ready(function(){
+        var width=$(document).width();
+        $("#page").css("{width:"+width+"px}");
+        
+    });
+</script>
 </head>
 <body>
 <div id="page">
@@ -19,7 +28,10 @@ Sridhar Vemula
 	</div>
 	</div>
 	<div id="content" class="page_class">
-            HEllOOO
+            HEllOOO WORLD
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br />flaksjflkasjfrl<br /><br />
 	</div>
 </div>
 
