@@ -7,11 +7,29 @@ Sridhar Vemula
 <link href="./css/main_page.css" type="text/css" rel="stylesheet" />
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
 <script>   
     $(document).ready(function(){
-        var width=$(document).width();
+        var width=$(window).width();
         $("#page").css("{width:"+width+"px}");
-        
+        $(window).resize(function(){
+           var wid=$(window).width();
+           if(wid<800){
+              // $("#basic_profile").hide('slide',{direction:'left'},300);
+              // $("#menu").hide('slide',{direction:'left'},300);
+              $("#basic_profile").fadeOut(300);
+              $("#menu").fadeOut(300);
+              
+               
+           }
+           if(wid>800){
+            //   $("#basic_profile").show('slide',{direction:'right'},300);
+            //   $("#menu").show('slide',{direction:'right'},300);
+                $("#basic_profile").fadeIn(300);
+              $("#menu").fadeIn(300);
+              
+            }
+        });
     });
 </script>
 </head>
