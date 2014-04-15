@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 14, 2014, 9:34:50 PM
+    Author     : Sridhar
+*/
+body{
+    margin:0;
+}
+#content_wrapper{
+    position:absolute;
+    min-width :100%;
+    min-height:100%;
+    display:table-column-group;
+}
+#basic_profile{
+    display:table-column;
+    position:fixed;
+    width:300px;
+    background-color: bisque;
+    height:100%;
+}
+#menu{
+    display:table-column;
+    position:fixed;
+    width:100px;
+    left:300px;
+    background-color: buttonface;
+    height: 100%;
+}
+#content{
+    display:table-column;
+    position:absolute;
+    height: 100%;
+    left:400px;
+    background-color: blueviolet;
+    
+}
+#top_menu_bar{
+    display:block;
+    position:inherit;
+    width:100%;
+    background-color: appworkspace;
+}
+#hor_view{
+    display:table-column-group;
+    background-color: #cc00cc;
+    position:inherit;
+    width:100%;
+}
+#side_menu{
+    display: table-column;
+    position:fixed;
+    width:300px;
+    background-color: black;
+}
+#content_view{
+   display: table-colum;
+   background-color: aqua;
+   position:absolute;
+   width:100%;
+}
